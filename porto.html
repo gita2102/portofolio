@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portofolio Estetik</title>
+  <style>
+    :root {
+      --primary: #6C63FF;
+      --background: #fdfdfd;
+      --text: #333;
+      --light-gray: #eee;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: var(--background);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--primary);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+
+    nav {
+      background: white;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: var(--text);
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: var(--primary);
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      color: var(--primary);
+    }
+
+    .about {
+      text-align: center;
+    }
+
+    .about img {
+      width: 120px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+    }
+
+    .project {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+      transition: transform 0.3s ease;
+    }
+
+    .project:hover {
+      transform: translateY(-5px);
+    }
+
+    .project img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    form {
+      max-width: 600px;
+      margin: auto;
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1rem;
+    }
+
+    form button {
+      background: var(--primary);
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: background 0.3s;
+    }
+
+    form button:hover {
+      background: #574bff;
+    }
+
+    footer {
+      background: var(--light-gray);
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #666;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 2rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Gita nabilah kautsar</h1>
+    <p></p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <img src="WhatsApp Image 2025-05-20 at 09.41.51.jpeg" alt="Profile Picture">
+    <p>Halo nama saya Gita saya lahir di desa suangai langka.</p>
+       <p> Pendidikan:</p>
+       <p>~Paud anisa sungai langka</p> 
+        <p>~Sdn 54 gedung tataan</p>
+        <p>~Smpn 17 pesawaran</p>
+       <p>~Smkn 1 gedung tataan</p> 
+    
+  </section>
+
+  <section id="projects">
+    <h2>Keahlian</h2>
+    <div class="projects">
+      <div class="project">
+        <img src="https://via.placeholder.com/300x180" alt="Project 1">
+        <h3>Landing Page</h3>
+        <p>canva,html,css,cc.</p>
+      </div>
+     
+  </section>
+
+  <section id="contact">
+    <h2>Pengalaman</h2>
+    <p>pernah mengikuti lomba voly antar dusun memenangkan juara 3
+        dan banyak yang lain-lain
+    </p>
+</body>
+</html>
